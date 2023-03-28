@@ -2,7 +2,7 @@ const express = require('express')
 const connection = require('./connection/connection')
 const userRoutes = require('./routes/user')
 const cors = require('cors')
-const port = 8008
+const port = 8080
 connection()
 
 const app = express()
